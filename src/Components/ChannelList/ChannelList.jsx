@@ -8,7 +8,7 @@ const ChannelList=( { titulos, canales } )=>{
       {
         canales.map((canal) => {
           return (
-              <ChannelItem key={canal.id} nombre={canal.nombre} id={canal.id}/>
+              <ChannelItem key={canal.id} nombre={canal.name} id={canal.id}/>
           )
         })
       }
