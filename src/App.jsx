@@ -43,6 +43,8 @@ function App() {
   
     return (
       <>
+        <h1>Creando un Workspace desde cero</h1>
+        
         <ChatList  mensajes={mensajes}/>
         <ChannelList canales={canales} titulos={'Canales'}/> 
         <ChannelList canales={canales} titulos={'Mensajes Directos'}/> 
